@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F236AA6719EB6AF300611F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236AA6619EB6AF300611F30 /* AppDelegate.swift */; };
+		F236AA6919EB6AF300611F30 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F236AA6819EB6AF300611F30 /* GameScene.sks */; };
+		F236AA6B19EB6AF300611F30 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236AA6A19EB6AF300611F30 /* GameScene.swift */; };
+		F236AA6D19EB6AF300611F30 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236AA6C19EB6AF300611F30 /* GameViewController.swift */; };
+		F236AA7019EB6AF300611F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F236AA6E19EB6AF300611F30 /* Main.storyboard */; };
+		F236AA7219EB6AF300611F30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F236AA7119EB6AF300611F30 /* Images.xcassets */; };
+		F236AA7519EB6AF300611F30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F236AA7319EB6AF300611F30 /* LaunchScreen.xib */; };
+		F236AA8119EB6AF300611F30 /* RockBlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236AA8019EB6AF300611F30 /* RockBlockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F236AA7B19EB6AF300611F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F236AA5919EB6AF300611F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F236AA6019EB6AF300611F30;
+			remoteInfo = RockBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F236AA6119EB6AF300611F30 /* RockBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F236AA6519EB6AF300611F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F236AA6619EB6AF300611F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F236AA6819EB6AF300611F30 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F236AA6A19EB6AF300611F30 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F236AA6C19EB6AF300611F30 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F236AA6F19EB6AF300611F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F236AA7119EB6AF300611F30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F236AA7419EB6AF300611F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F236AA7A19EB6AF300611F30 /* RockBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F236AA7F19EB6AF300611F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F236AA8019EB6AF300611F30 /* RockBlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockBlockTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F236AA5E19EB6AF300611F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236AA7719EB6AF300611F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F236AA5819EB6AF300611F30 = {
+			isa = PBXGroup;
+			children = (
+				F236AA6319EB6AF300611F30 /* RockBlock */,
+				F236AA7D19EB6AF300611F30 /* RockBlockTests */,
+				F236AA6219EB6AF300611F30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F236AA6219EB6AF300611F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F236AA6119EB6AF300611F30 /* RockBlock.app */,
+				F236AA7A19EB6AF300611F30 /* RockBlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F236AA6319EB6AF300611F30 /* RockBlock */ = {
+			isa = PBXGroup;
+			children = (
+				F236AA6619EB6AF300611F30 /* AppDelegate.swift */,
+				F236AA6819EB6AF300611F30 /* GameScene.sks */,
+				F236AA6A19EB6AF300611F30 /* GameScene.swift */,
+				F236AA6C19EB6AF300611F30 /* GameViewController.swift */,
+				F236AA6E19EB6AF300611F30 /* Main.storyboard */,
+				F236AA7119EB6AF300611F30 /* Images.xcassets */,
+				F236AA7319EB6AF300611F30 /* LaunchScreen.xib */,
+				F236AA6419EB6AF300611F30 /* Supporting Files */,
+			);
+			path = RockBlock;
+			sourceTree = "<group>";
+		};
+		F236AA6419EB6AF300611F30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F236AA6519EB6AF300611F30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F236AA7D19EB6AF300611F30 /* RockBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				F236AA8019EB6AF300611F30 /* RockBlockTests.swift */,
+				F236AA7E19EB6AF300611F30 /* Supporting Files */,
+			);
+			path = RockBlockTests;
+			sourceTree = "<group>";
+		};
+		F236AA7E19EB6AF300611F30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F236AA7F19EB6AF300611F30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F236AA6019EB6AF300611F30 /* RockBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F236AA8419EB6AF300611F30 /* Build configuration list for PBXNativeTarget "RockBlock" */;
+			buildPhases = (
+				F236AA5D19EB6AF300611F30 /* Sources */,
+				F236AA5E19EB6AF300611F30 /* Frameworks */,
+				F236AA5F19EB6AF300611F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockBlock;
+			productName = RockBlock;
+			productReference = F236AA6119EB6AF300611F30 /* RockBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F236AA7919EB6AF300611F30 /* RockBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F236AA8719EB6AF300611F30 /* Build configuration list for PBXNativeTarget "RockBlockTests" */;
+			buildPhases = (
+				F236AA7619EB6AF300611F30 /* Sources */,
+				F236AA7719EB6AF300611F30 /* Frameworks */,
+				F236AA7819EB6AF300611F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F236AA7C19EB6AF300611F30 /* PBXTargetDependency */,
+			);
+			name = RockBlockTests;
+			productName = RockBlockTests;
+			productReference = F236AA7A19EB6AF300611F30 /* RockBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F236AA5919EB6AF300611F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Max Takano";
+				TargetAttributes = {
+					F236AA6019EB6AF300611F30 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F236AA7919EB6AF300611F30 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F236AA6019EB6AF300611F30;
+					};
+				};
+			};
+			buildConfigurationList = F236AA5C19EB6AF300611F30 /* Build configuration list for PBXProject "RockBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F236AA5819EB6AF300611F30;
+			productRefGroup = F236AA6219EB6AF300611F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F236AA6019EB6AF300611F30 /* RockBlock */,
+				F236AA7919EB6AF300611F30 /* RockBlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F236AA5F19EB6AF300611F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F236AA7519EB6AF300611F30 /* LaunchScreen.xib in Resources */,
+				F236AA7219EB6AF300611F30 /* Images.xcassets in Resources */,
+				F236AA6919EB6AF300611F30 /* GameScene.sks in Resources */,
+				F236AA7019EB6AF300611F30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236AA7819EB6AF300611F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F236AA5D19EB6AF300611F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F236AA6B19EB6AF300611F30 /* GameScene.swift in Sources */,
+				F236AA6D19EB6AF300611F30 /* GameViewController.swift in Sources */,
+				F236AA6719EB6AF300611F30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236AA7619EB6AF300611F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F236AA8119EB6AF300611F30 /* RockBlockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F236AA7C19EB6AF300611F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F236AA6019EB6AF300611F30 /* RockBlock */;
+			targetProxy = F236AA7B19EB6AF300611F30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F236AA6E19EB6AF300611F30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F236AA6F19EB6AF300611F30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F236AA7319EB6AF300611F30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F236AA7419EB6AF300611F30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F236AA8219EB6AF300611F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F236AA8319EB6AF300611F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F236AA8519EB6AF300611F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockBlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F236AA8619EB6AF300611F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockBlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F236AA8819EB6AF300611F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RockBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockBlock.app/RockBlock";
+			};
+			name = Debug;
+		};
+		F236AA8919EB6AF300611F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RockBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockBlock.app/RockBlock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F236AA5C19EB6AF300611F30 /* Build configuration list for PBXProject "RockBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236AA8219EB6AF300611F30 /* Debug */,
+				F236AA8319EB6AF300611F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F236AA8419EB6AF300611F30 /* Build configuration list for PBXNativeTarget "RockBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236AA8519EB6AF300611F30 /* Debug */,
+				F236AA8619EB6AF300611F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F236AA8719EB6AF300611F30 /* Build configuration list for PBXNativeTarget "RockBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236AA8819EB6AF300611F30 /* Debug */,
+				F236AA8919EB6AF300611F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F236AA5919EB6AF300611F30 /* Project object */;
+}
