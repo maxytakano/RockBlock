@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  RockBlock
+//  spritekitTest190
 //
-//  Created by Max Takano on 10/12/14.
+//  Created by Max Takano on 10/14/14.
 //  Copyright (c) 2014 Max Takano. All rights reserved.
 //
 
