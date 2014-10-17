@@ -33,7 +33,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var seconds = 0
 
     override func didMoveToView(view: SKView) {
-        endGame()
         
         // initialize high score for first run
         if (NSUserDefaults.standardUserDefaults().objectForKey("HighScore") == nil) {
