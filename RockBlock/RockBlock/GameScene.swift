@@ -33,6 +33,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var seconds = 0
 
     override func didMoveToView(view: SKView) {
+        endGame()
         
         // initialize high score for first run
         if (NSUserDefaults.standardUserDefaults().objectForKey("HighScore") == nil) {
@@ -77,6 +78,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         // Initialize up long press gesture
         let recognizer = UILongPressGestureRecognizer(target: self, action: Selector("handleTap:"))
         recognizer.minimumPressDuration = 0.0;
+        recognizer.cancelsTouchesInView = false;
+        recognizer.delaysTouchesEnded = false
         
         view.addGestureRecognizer(recognizer)
         
