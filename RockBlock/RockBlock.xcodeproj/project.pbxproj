@@ -115,6 +115,7 @@
 			children = (
 				F28B4ADF19F0C7A90071ADA6 /* SpriteKitSimpleGameResources */,
 				F28B4AD919F0C7A90071ADA6 /* CustomProgressBar.swift */,
+				968D422619F2FFE300820FB4 /* OptionScene.swift */,
 				968D422419F271CC00820FB4 /* SevenSwitch.swift */,
 				F28B4ADC19F0C7A90071ADA6 /* OtherCode.swift */,
 				F28B4ADD19F0C7A90071ADA6 /* ParticleSystems.swift */,
@@ -123,7 +124,6 @@
 				F236AA6A19EB6AF300611F30 /* GameScene.swift */,
 				F28B4ADA19F0C7A90071ADA6 /* GameOverScreen.swift */,
 				F28B4AF819F0CA140071ADA6 /* MenuScene.swift */,
-				968D422619F2FFE300820FB4 /* OptionScene.swift */,
 				F28B4AF919F0CA140071ADA6 /* ScoresScene.swift */,
 				F236AA6C19EB6AF300611F30 /* GameViewController.swift */,
 				F236AA6E19EB6AF300611F30 /* Main.storyboard */,
