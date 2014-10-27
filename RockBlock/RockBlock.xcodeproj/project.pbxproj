@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		968D422519F271CC00820FB4 /* SevenSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D422419F271CC00820FB4 /* SevenSwitch.swift */; };
 		968D422719F2FFE300820FB4 /* OptionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D422619F2FFE300820FB4 /* OptionScene.swift */; };
+		96DB5E4F19FE00C700A0B213 /* splash_test copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 96DB5E4E19FE00C700A0B213 /* splash_test copy.png */; };
+		96DB5E5319FE019600A0B213 /* CustomLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DB5E5219FE019600A0B213 /* CustomLaunchScreen.storyboard */; };
 		F236AA6719EB6AF300611F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236AA6619EB6AF300611F30 /* AppDelegate.swift */; };
 		F236AA6B19EB6AF300611F30 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236AA6A19EB6AF300611F30 /* GameScene.swift */; };
 		F236AA6D19EB6AF300611F30 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236AA6C19EB6AF300611F30 /* GameViewController.swift */; };
@@ -46,6 +48,8 @@
 /* Begin PBXFileReference section */
 		968D422419F271CC00820FB4 /* SevenSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenSwitch.swift; sourceTree = "<group>"; };
 		968D422619F2FFE300820FB4 /* OptionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptionScene.swift; path = SpriteKitSimpleGameResources/OptionScene.swift; sourceTree = "<group>"; };
+		96DB5E4E19FE00C700A0B213 /* splash_test copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_test copy.png"; sourceTree = "<group>"; };
+		96DB5E5219FE019600A0B213 /* CustomLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomLaunchScreen.storyboard; sourceTree = "<group>"; };
 		F236AA6119EB6AF300611F30 /* RockBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F236AA6519EB6AF300611F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F236AA6619EB6AF300611F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 		F236AA5819EB6AF300611F30 = {
 			isa = PBXGroup;
 			children = (
+				96DB5E5219FE019600A0B213 /* CustomLaunchScreen.storyboard */,
 				F236AA6319EB6AF300611F30 /* RockBlock */,
 				F236AA7D19EB6AF300611F30 /* RockBlockTests */,
 				F236AA6219EB6AF300611F30 /* Products */,
@@ -115,15 +120,16 @@
 			children = (
 				F28B4ADF19F0C7A90071ADA6 /* SpriteKitSimpleGameResources */,
 				F28B4AD919F0C7A90071ADA6 /* CustomProgressBar.swift */,
-				968D422619F2FFE300820FB4 /* OptionScene.swift */,
 				968D422419F271CC00820FB4 /* SevenSwitch.swift */,
 				F28B4ADC19F0C7A90071ADA6 /* OtherCode.swift */,
 				F28B4ADD19F0C7A90071ADA6 /* ParticleSystems.swift */,
+				96DB5E4E19FE00C700A0B213 /* splash_test copy.png */,
 				F28B4ADE19F0C7A90071ADA6 /* PhysicsUtilities.swift */,
 				F236AA6619EB6AF300611F30 /* AppDelegate.swift */,
 				F236AA6A19EB6AF300611F30 /* GameScene.swift */,
 				F28B4ADA19F0C7A90071ADA6 /* GameOverScreen.swift */,
 				F28B4AF819F0CA140071ADA6 /* MenuScene.swift */,
+				968D422619F2FFE300820FB4 /* OptionScene.swift */,
 				F28B4AF919F0CA140071ADA6 /* ScoresScene.swift */,
 				F236AA6C19EB6AF300611F30 /* GameViewController.swift */,
 				F236AA6E19EB6AF300611F30 /* Main.storyboard */,
@@ -240,9 +246,11 @@
 				TargetAttributes = {
 					F236AA6019EB6AF300611F30 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = W8FMTE3P32;
 					};
 					F236AA7919EB6AF300611F30 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = W8FMTE3P32;
 						TestTargetID = F236AA6019EB6AF300611F30;
 					};
 				};
@@ -275,6 +283,8 @@
 				F236AA7519EB6AF300611F30 /* LaunchScreen.xib in Resources */,
 				F28B4AF519F0C9F50071ADA6 /* play.png in Resources */,
 				F28B4AF719F0C9F50071ADA6 /* scores.png in Resources */,
+				96DB5E4F19FE00C700A0B213 /* splash_test copy.png in Resources */,
+				96DB5E5319FE019600A0B213 /* CustomLaunchScreen.storyboard in Resources */,
 				F28B4AF319F0C9F50071ADA6 /* background.png in Resources */,
 				F28B4AEC19F0C7A90071ADA6 /* sprites.atlas in Resources */,
 				F28B4AF619F0C9F50071ADA6 /* scores-pressed.png in Resources */,
@@ -433,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RockBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RockBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,6 +465,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -464,6 +478,7 @@
 				INFOPLIST_FILE = RockBlockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockBlock.app/RockBlock";
 			};
 			name = Debug;
@@ -472,6 +487,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -479,6 +496,7 @@
 				INFOPLIST_FILE = RockBlockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockBlock.app/RockBlock";
 			};
 			name = Release;

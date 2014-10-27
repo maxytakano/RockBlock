@@ -155,7 +155,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // Pass in the press state to update the player
         // 1 == pressed down, 3 == released
-        updatePlayerState(recognizer.state.toRaw())
+        updatePlayerState(recognizer.state.rawValue)
         
     }
     
